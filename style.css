@@ -1,0 +1,78 @@
+    body {
+      background-color: rgb(224, 214, 205);
+      font-family: sans-serif;
+    }
+
+    ul {
+      padding: 40px;
+      background: rgba(64, 64, 64, .10);
+      max-width: 200px;
+      max-height: 1580px;
+      position: absolute;
+      left: 1000px;
+      top: -20px;
+      list-style-type: none;
+    }
+
+    li {
+      display: block;
+      line-height: 35px;
+      position: relative;
+      padding-top: 10px;
+      padding-bottom: 35px;
+      text-align: center; 
+    }
+
+    nav a {
+      color: gray;
+      text-decoration: none;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    nav a:hover {
+      color: black;
+    }
+
+
+    
+    /*@media (max-width: 500px) {
+      h1 {
+        font-size: 15px;
+        max-width: 200px;
+        text-align: center;
+        position: fixed;
+        padding: 40px;
+      }
+      
+      ul{
+        position: absolute;  
+        left: 1px;
+        top: 700px;
+        max-width: 400px;
+      }
+      li {
+        padding: 40px;
+        display: block;
+        width: 225px;
+      }
+      #new_york_times {
+        max-width: 200px;
+        position: fixed;
+        left: 80px;
+        top: 125px;
+      }
+      #doc_nyc_laurels {
+      max-width: 100px;
+      position: fixed;
+      left: 50px;
+      top: 200px;
+      }
+      #bfi_laurels {
+      max-width: 150px;
+      position: fixed;
+      left: 150px;
+      top: 195px;
+      }
+      
+    }*/    
